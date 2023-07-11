@@ -16,7 +16,6 @@ body {
     background-color: #fff;
     padding: 20px;
     cursor: pointer;
-    position: sticky;
 }
 span {
     color: #E55473;
@@ -32,6 +31,7 @@ span {
     color: #E55473;
     text-decoration: underline;
 }
+/* banner section style */
 .banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -115,11 +115,6 @@ margin-top: 24px;
     padding:  85px 120px;
 }
 
-
-
-
-
-
 /* hot deal section style */
 
 .ht-img {
@@ -174,19 +169,20 @@ margin-top: 24px;
 .review-container {
     text-align: center;
     background: #f1f1f1;
-    padding-top: 80px;
+    padding-top: 80px
+
 }
 .reviews {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap:24px;
-    padding: 50px 240px;
+    padding: 70px 240px;
     box-shadow: 4px 4px 4px rgba(0,0,0,.1);
 }
 .review {
     background: #fff;
-    padding:  30px 30px 60px 30px;
+    padding:  40px 40px 80px 30px;
 }
 .isize {
     width: 100px;
