@@ -63,6 +63,9 @@ span {
     padding: 20px 43px;
     border: 0;
 }
+.btn-primary:hover {
+    background-color: black;
+}
 /* feature flower section style */
 
 .flowers-container {
@@ -104,5 +107,23 @@ margin-top: 24px;
     margin-top: 48px;
 }
 .bg-img {
-    padding: 128px 0;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 130px;
+    margin: 100px 0;
 }
+.bg-img input {
+    padding: 15px 200px;
+    border: none;
+}
+.btn {
+    font-size: 15px;
+    padding: 14px 30px;
+}
+::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+}
+
