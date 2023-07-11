@@ -73,10 +73,53 @@ span {
     text-align: center;
     background: #FFF;
     margin-top: 100px;
+    
 }
 .des {
 margin-top: 24px;
 }
+.fsize {
+    width: 310px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+    border-radius: 50% 50% 0 0;
+    
+}
+.fimage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 48px;
+}
+.lsize {
+    padding: 117px 47px 51px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 50% 50% 0 0;
+}
+.fcolor {
+    padding: 67px 75px 0;
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-title {
+    text-decoration: underline;
+    padding-top: 32px;
+}
+.support-container {
+    margin: 100px 235px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  85px 120px;
+}
+
+
+
+
+
+
 /* hot deal section style */
 
 .ht-img {
@@ -115,7 +158,7 @@ margin-top: 24px;
     margin: 100px 0;
 }
 .bg-img input {
-    padding: 15px 200px;
+    padding: 15px 180px 15px 30px;
     border: none;
 }
 .btn {
@@ -159,5 +202,8 @@ margin-top: 24px;
 }
 .description {
     margin: 24px 0;
+}
+.support-title {
+    font-size: 18px;
 }
 
