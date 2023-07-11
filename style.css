@@ -31,3 +31,35 @@ span {
 .menulist li:hover {
     color: #E55473;
 }
+.banner-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 220px;
+}
+.logo-size {
+    width: 635px;
+    height: 800px;
+    margin-top: 80px;
+}
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 900;
+}
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 32px 0;
+}
+.btn-primary {
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: 0;
+}
