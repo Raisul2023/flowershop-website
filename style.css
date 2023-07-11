@@ -30,6 +30,7 @@ span {
 }
 .menulist li:hover {
     color: #E55473;
+    text-decoration: underline;
 }
 .banner-container {
     background-color: rgba(229, 84, 115, 0.10);
@@ -125,5 +126,38 @@ margin-top: 24px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
     font-weight: 400;
+}
+/* customer review section */
+.review-container {
+    text-align: center;
+    background: #f1f1f1;
+    padding-top: 80px;
+}
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:24px;
+    padding: 50px 240px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+}
+.review {
+    background: #fff;
+    padding:  30px 30px 60px 30px;
+}
+.isize {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* footer section style */
+.footer-container {
+    text-align: center;
+    padding: 128px 500px;
+    background: rgb(46, 45, 45);
+    color: white;
+}
+.description {
+    margin: 24px 0;
 }
 
