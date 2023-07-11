@@ -63,3 +63,30 @@ span {
     padding: 20px 43px;
     border: 0;
 }
+/* feature flower section style */
+
+.flowers-container {
+    text-align: center;
+    background: #FFF;
+    margin-top: 50px;
+}
+.des {
+margin-top: 24px;
+}
+/* hot deal section style */
+
+.ht-img {
+    width: 318px;
+    height: 420px;
+}
+.hot-deal-container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+.hot-deal-info {
+    text-align: center;
+}
